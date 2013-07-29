@@ -1,0 +1,23 @@
+; Language
+&EN
+
+
+; SIS header: name, uid, version
+#{"Tweeties installer"},(0x2002CCCF),1,10,0
+
+; Default localized vendor name
+%{"Dragon Sight"}
+
+; Default unique vendor name
+:"Dragon Sight"
+
+
+; Manual PKG pre-rules from PRO files
+; Default dependency to Qt libraries
+; Default HW/platform dependencies
+[0x1028315F],0,0,0,{"S60 5th"}
+[0x20022E6D],0,0,0,{"Symbian3"}
+
+
+"./qmltwitter_20034cc4.sis" - "!:\private\2002CCCE\import\qmltwitter_20034cc4.sis"
+@"C:/QtSDK/Symbian/SDKs/Symbian3Qt473//smartinstaller.sis",(0x2002CCCD)
